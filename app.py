@@ -6,12 +6,6 @@ import seaborn as sns
 import joblib
 import os
 
-st.set_page_config(
-    page_title="Dubai Real Estate App", 
-    page_icon="https://raw.githubusercontent.com/fadilrahman-tech/Dubai-Real-Estate-Hub/main/dubai.png",
-    layout="wide"
-)
-
 # ... then your loading logic ...
 # ... then your UI START ...
 st.title("🏙️ Dubai Real Estate Hub 2026")
