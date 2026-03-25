@@ -1,7 +1,7 @@
 import pandas as pd 
 import numpy as np 
 import matplotlib.pyplot as plt 
-# Just the filename!
+
 df = pd.read_csv("dubai_properties.csv")
 print(df.info())
 print(df.head())
