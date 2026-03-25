@@ -12,7 +12,8 @@ MODEL_FILE = 'rf_model.pkl'
 SCALER_FILE = 'scaler.pkl'
 COLUMNS_FILE = 'model_columns.pkl'
 
-st.set_page_config(page_title="Dubai Real Estate App", page_icon="🏙️", layout="wide")
+st.set_page_config(page_title="Dubai Real Estate App", page_icon="https://raw.githubusercontent.com/fadilrahman-tech/Dubai-Real-Estate-Hub/main/dubai.png", layout="wide")
+
 
 # 2. LOAD DATA
 @st.cache_data
@@ -41,11 +42,7 @@ model, scaler, model_columns = load_models()
 # --- UI START ---
 st.title("🏙️ Dubai Real Estate Hub 2026")
 st.markdown("Welcome to the Dubai Real Estate Dashboard, Predictor, and Assistant.")
-st.set_page_config(
-    page_title="Dubai Real Estate Hub 2026",
-    page_icon="https://raw.githubusercontent.com/fadilrahman-tech/Dubai-Real-Estate-Hub/main/dubai.png", # Make sure the filename matches your GitHub
-    layout="wide"
-)
+
 
 tab1, tab2, tab3 = st.tabs(["📊 Dashboard", "🔮 Rent Predictor", "🤖 Data Assistant"])
 
