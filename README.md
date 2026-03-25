@@ -38,3 +38,6 @@ Capabilities: Explains RERA laws, provides neighborhood "vibes" (schools, traffi
 ├── requirements.txt    # Python dependencies
 
 └── README.md           # You are here!
+
+## Realtime Property values might be different 
+posted from 2023-2024.
