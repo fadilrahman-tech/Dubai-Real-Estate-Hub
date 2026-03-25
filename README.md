@@ -25,8 +25,13 @@ An intelligent assistant powered by a trained UAE realestate dataset to answer m
 Capabilities: Explains RERA laws, provides neighborhood "vibes" (schools, traffic, amenities), and gives advice on "Rent vs. Buy" scenarios.
 
 ├── data/               # Raw and cleaned UAE real estate datasets
+
 ├── models/             # Trained .pkl or .joblib model files
+
 ├── notebooks/          # EDA and Model Training workflows
+
 ├── app.py              # Main Streamlit application
+
 ├── requirements.txt    # Python dependencies
+
 └── README.md           # You are here!
