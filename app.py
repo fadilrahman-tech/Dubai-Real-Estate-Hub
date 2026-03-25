@@ -9,7 +9,7 @@ import os
 # ... then your loading logic ...
 # ... then your UI START ...
 st.title("🏙️ Dubai Real Estate Hub 2026")
-
+st.markdown("Welcome to the Dubai Real Estate Dashboard, Predictor, and Assistant.")
 CSV_FILE = "dubai_properties.csv"
 MODEL_FILE = 'rf_model.pkl'
 SCALER_FILE = 'scaler.pkl'
@@ -41,10 +41,6 @@ def load_models():
     return None, None, None
 
 model, scaler, model_columns = load_models()
-
-# --- UI START ---
-st.title("🏙️ Dubai Real Estate Hub 2026")
-st.markdown("Welcome to the Dubai Real Estate Dashboard, Predictor, and Assistant.")
 
 
 tab1, tab2, tab3 = st.tabs(["📊 Dashboard", "🔮 Rent Predictor", "🤖 Data Assistant"])
