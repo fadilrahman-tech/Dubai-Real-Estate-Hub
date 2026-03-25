@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 import os
+df = pd.read_csv("dubai_properties.csv")
 
 st.set_page_config(page_title="Dubai Real Estate App", page_icon="🏙️", layout="wide")
 import joblib
