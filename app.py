@@ -6,13 +6,22 @@ import seaborn as sns
 import joblib
 import os
 
+st.set_page_config(
+    page_title="Dubai Real Estate App", 
+    page_icon="https://raw.githubusercontent.com/fadilrahman-tech/Dubai-Real-Estate-Hub/main/dubai.png",
+    layout="wide"
+)
+
+# ... then your loading logic ...
+# ... then your UI START ...
+st.title("🏙️ Dubai Real Estate Hub 2026")
 
 CSV_FILE = "dubai_properties.csv"
 MODEL_FILE = 'rf_model.pkl'
 SCALER_FILE = 'scaler.pkl'
 COLUMNS_FILE = 'model_columns.pkl'
 
-st.set_page_config(page_title="Dubai Real Estate App", page_icon="https://raw.githubusercontent.com/fadilrahman-tech/Dubai-Real-Estate-Hub/main/dubai.png", layout="wide")
+
 
 
 # 2. LOAD DATA
