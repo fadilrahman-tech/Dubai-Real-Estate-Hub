@@ -1,4 +1,7 @@
 <img width="1920" height="806" alt="image" src="https://github.com/user-attachments/assets/d5dac1c1-c16b-42d3-a39d-faba58264720" />
+
+Have a look! 
+https://dubai-real-estate-app-p3qunbs5kvsxiqwj99ebzh.streamlit.app/  This Link redirects you to Streamlit
 # Dubai-Real-Estate-Hub
 Dubai Real Estate Hub: AI-Powered Insights &amp; Rent Prediction
 A comprehensive end-to-end data science solution designed to navigate the 2026 Dubai rental market. This platform combines a Machine Learning Rent Predictor, an Interactive Analytics Dashboard, and an AI Real Estate Assistant to help tenants, investors, and agents make data-backed decisions.
