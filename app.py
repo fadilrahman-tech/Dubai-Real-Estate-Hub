@@ -7,12 +7,16 @@ import joblib
 import os
 
 st.set_page_config(page_title="Dubai Real Estate App", page_icon="🏙️", layout="wide")
+import joblib
+import os
 
-# Set up paths
-MODEL_PATH = 'D:/pers/dubai/rf_model.pkl'
-SCALER_PATH = 'D:/pers/dubai/scaler.pkl'
-COLS_PATH = 'D:/pers/dubai/model_columns.pkl'
-CSV_PATH = 'D:/pers/dubai/dubai_properties.csv'
+# This looks for the files in the same folder as app.py
+try:
+    model = joblib.load('rf_model.pkl')
+    scaler = joblib.load('scaler.pkl')
+    model_columns = joblib.load('model_columns.pkl')
+except Exception as e:
+    st.error(f"Error loading model files: {e}")
 
 # Load artifacts
 @st.cache_resource
