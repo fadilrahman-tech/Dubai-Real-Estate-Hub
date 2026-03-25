@@ -1,9 +1,8 @@
 import pandas as pd 
 import numpy as np 
 import matplotlib.pyplot as plt 
-
-file_path = "D:/pers/dubai/dubai_properties.csv"
-df = pd.read_csv(file_path)
+# Just the filename!
+df = pd.read_csv("dubai_properties.csv")
 print(df.info())
 print(df.head())
 df.columns.tolist()# Display the column names
