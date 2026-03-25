@@ -4,6 +4,6 @@ numpy
 scikit-learn
 joblib
 plotly
-openai
+matplotlib.pyplot
 langchain
 python-dotenv
