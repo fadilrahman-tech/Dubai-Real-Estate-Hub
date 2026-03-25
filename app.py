@@ -42,7 +42,7 @@ model, scaler, model_columns = load_models()
 st.title("🏙️ Dubai Real Estate Hub 2026")
 st.markdown("Welcome to the Dubai Real Estate Dashboard, Predictor, and Assistant.")
 st.set_page_config(
-    page_icon="🏙️", https://private-user-images.githubusercontent.com/78504136/569316042-d5dac1c1-c16b-42d3-a39d-faba58264720.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzQ0NzAzMDMsIm5iZiI6MTc3NDQ3MDAwMywicGF0aCI6Ii83ODUwNDEzNi81NjkzMTYwNDItZDVkYWMxYzEtYzE2Yi00MmQzLWEzOWQtZmFiYTU4MjY0NzIwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAzMjUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMzI1VDIwMjAwM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUyOTFjMGQ2MGQ2NGRlOWI4NTZmZjc2OTQ0NTQ2NmIyMWM5ZDA4MDI2YzM2OWZlOTNkNTE2ODhlMmNmZDZjM2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.OcbVrk0ZPw9Llzl24dOOePvQIaWWtylaD3aJlbc5fvc,
+    page_icon="https://raw.githubusercontent.com/fadilrahman-tech/Dubai-Real-Estate-Hub/main/dubai.png", # Make sure the filename matches your GitHub
     layout="wide"
 )
 
